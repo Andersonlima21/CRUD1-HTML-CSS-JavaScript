@@ -8,8 +8,7 @@ Primeiro Commit:
 Subindo HTML e CSS
 
 Segundo Commit:
-Adicionando o arquivo .Js junto com alguns eventos para abrir e fechar o modal
-
+Adicionando o arquivo .Js junto com alguns eventos para abrir e fechar o (Modal Cadastrar Cliente)
 
 --------------------------------------------------------------------------------------------------------------------------
 
