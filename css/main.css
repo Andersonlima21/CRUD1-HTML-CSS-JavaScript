@@ -1,9 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --primary-color: #616160;
     --secundary-color: #FFF1CC;
     --shadow-color: #CCC;
     --text-color: #FFF;
-}
+} /* Declarando algumas cores que vou utilizar */
 
 body{
     min-height: 100vh;
