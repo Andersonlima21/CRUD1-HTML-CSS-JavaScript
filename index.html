@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="main.js" defer></script>
+
+    <title>CRUD Web 1</title>
+
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Clientes</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Teste1</td>
+                    <td>Teste1@gmail.com</td>
+                    <td>(11) 91111-1111</td>
+                    <td>Teste cidade 1</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Teste2</td>
+                    <td>Teste2@gmail.com</td>
+                    <td>(11) 92222-2222</td>
+                    <td>Teste cidade 2</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Teste3</td>
+                    <td>Teste3@gmail.com</td>
+                    <td>(33) 93333-3333</td>
+                    <td>Teste cidade 3</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Modal do meu Novo Registro-->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome do Cliente">
+                    <input type="email" class="modal-field" placeholder="E-mail do Cliente">
+                    <input type="text" class="modal-field" placeholder="Celular do Cliente">
+                    <input type="text" class="modal-field" placeholder="Cidade do Cliente">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
