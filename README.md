@@ -28,4 +28,10 @@ deleteClient também está funcionado por posições, para acionar este basta pe
 07/11/2021 20:41h Quarto Commit:
 Funcionalidade do botão Salvar dentro do modal Cadastrar Cliente, funcionando. (Chamando o UpdateTable para inserir as novas linhas contendo as informações de usuário já cadastrados no LocalStorage)
 --------------------------------------------------------------------------------------------------------------------------
+08/11/2021 13:50
+Função ao clicar em Salvar dentro do Modal cadastrar cliente, já está armazenando no LocalStorage os dados, e antes do Modal ser fechado, o codigo updateTable para inserir a nova Row é ativada para lançar a linha com os novos dados.
 
+Atualização 15:14
+Interação com a tela foi realizada.
+
+Create, Read, Edit e Delete
