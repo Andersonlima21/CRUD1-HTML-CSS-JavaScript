@@ -119,9 +119,7 @@ const editDelete = (event) => { //Tudo que não for botão, esse if não irá ro
 
         }
     }
-
 }
-
 updateTable()
 
 //Botão cadastrar cliente espera o evento de click para executar o openModal
