@@ -35,3 +35,16 @@ Atualização 15:14
 Interação com a tela foi realizada.
 
 Create, Read, Edit e Delete
+
+------------------------------------------------------------------------------------------------------------
+
+12/11/2021 01:39 Revisando o Código
+
+* Novos coments
+* Melhorando a indentação do Codigo
+
+Termino dos novos Commits 02:45 12/11/2021
+
+Projeto Crud JavaScript finalizado 
+
+-------------------------------------------------------------------------------------------------------------
